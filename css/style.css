@@ -1,0 +1,132 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    background-color: rgb(189, 177, 177);
+}
+
+h1 span {
+    display: block;
+}
+
+#wrapper {
+    width: 880px;
+    background-color: #607070;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+}
+
+#poem .stanza h3{
+    color: yellow;
+    text-shadow: 1.2px 2px #000;
+}
+
+#poem{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.stanza {
+    width: 400px;
+    height: 275px;
+    background: white;
+    float: right;
+    margin: 10px auto;
+    border: 1px solid red;
+    padding: 0 0 8px 10px;
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+    text-shadow: 1px 1px 3px black;
+    background: linear-gradient(90deg, #97abad, rgb(0, 0, 0))
+}
+
+#stanza1 {
+    background-image: url("../images/mountains.jpg");  
+    background-position: center;
+} 
+
+#stanza2 {
+    background-image: url("../images/forest.jpg");  
+    background-position: center;
+}
+
+#stanza3 {
+    background-image: url("../images/fall_leaves.jpg");  
+    background-position: center;
+}
+
+#stanza4 {
+    background: linear-gradient(90deg, #804ff3, rgb(255, 180, 180));
+}
+
+#stanza5 {
+    background: linear-gradient(45deg, #16e2f5, rgb(48, 56, 25));
+}
+
+#stanza6 {
+    background-image: url("../images/tobias-tullius-Jo43sBs_ynw-unsplash.jpg");  
+    background-size: cover;
+}
+
+#stanza7 {
+    background: linear-gradient(90deg, #000000, rgb(218, 250, 37));
+}
+
+#stanza8 {
+    background: linear-gradient(90deg, #97abad, rgb(0, 0, 0))
+}
+
+#stanza9 {
+    background-image: url("../images/circles.jpg");
+    background-size: cover;
+}
+
+#stanza10 {
+    background-image: url("../images/green_light.jpg");  
+    background-size: cover;
+}
+
+#stanza11 {
+    background: linear-gradient(90deg, black, #97abad)
+
+}
+
+#stanza12{
+    background-image: url("../images/river.jpg");  
+    background-size: cover;
+}
+
+#stanza13 {
+    background-image: url("../images/night_snowv2.jpg");  
+    background-size: cover;
+}
+
+#bio{
+    padding: 10px 10px;
+    clear: both;
+}
+
+#bio p:first-of-type:first-letter {
+    font-size: 33px;
+    color: purple;
+}
+
+#bio p{
+    line-height: 1.2;
+}
+
+a:link, a:visited{
+    color: yellow;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: blue;
+}
+
